@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number to Word</title>
+</head>
+<body>
+    
+    <script>
+    
+	
+	var num=prompt("enter the value");
+		while(num>0){
+			let Remainder=num%10;
+			num=(num-Remainder)/10;
+			
+			if(Remainder==0){
+				console.log("zero");
+			}
+			else if(Remainder==1){
+				console.log("one");
+			}
+			else if(Remainder==2){
+				console.log("Two");
+			}
+			else if(Remainder==3){
+				console.log("three");
+			}
+			else if(Remainder==4){
+				console.log("four");
+			}
+			else if(Remainder==5){
+				console.log("five");
+			}
+			else if(Remainder==6){
+				console.log("six");
+			}
+			else if(Remainder==7){
+				console.log("seven");
+			}
+			else if(Remainder==8){
+				console.log("Eight");
+			}
+			else{
+				console.log("nine");
+			}
+		}
+	
+	
+	
+	
+	  
+    </script>
+    
+</body>
+</html>
